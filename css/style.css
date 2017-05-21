@@ -1,0 +1,334 @@
+body{
+	margin:0;
+	padding: 0;
+	font-family: 'Asap', sans-serif;
+}
+.main{
+
+}
+
+.header-main{
+	height: 100%;
+	background: url('../img/bg.png');
+	background-size: cover;
+}
+
+.header{
+	
+}
+
+.head-right{
+	/*float: right;*/
+	/*border: 2px solid red;*/
+}
+
+.head-right ul{
+	list-style: none;
+	float: right;
+}
+
+.head-right ul li{
+	display: inline-block;
+	padding: 10px;
+}
+
+.hd-left{
+	padding-top: 12%;
+}
+
+.hd-left h1{
+	font-weight: bold;
+	font-size: 70px;
+	color: #4D4D4D;
+}
+
+.hd-left h3{
+	color: #919191;
+}
+
+.hd-left button{
+	background:transparent;
+	border:1px solid black;
+	padding:15px;
+	font-weight: bold;
+	margin:10px;
+
+	transition: 1s all;
+}
+
+.hd-left button:hover{
+	background-color: white;
+	border:none;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+.hd-right img{
+	width: 100%;
+}
+
+.cv-main{
+	padding-bottom: 10%;
+}
+.cv-left {
+	padding-top: 15%;
+	text-align: left;	
+
+}
+.cv-left h1{
+	margin: 0;
+	padding: 0;
+	/*line-height: 40px;*/
+	/*border: 2px solid red;*/
+	font-weight: bold;
+	font-size: 60px;
+	color: #6F6F6F;
+}
+
+.cv-left p{
+	font-size: 18px;
+}
+
+.cv-left button{
+	padding: 10px 25px;
+	border: 1px solid grey;
+	background-color: white;
+	font-weight: bold;
+	font-size: 15px;
+	transition: 1s all;
+}
+
+.cv-left button:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	border:none;
+}
+
+.cv-right{
+	padding-top: 10%;
+}
+
+.cv-right img{
+	width:100%;
+}
+
+.service-main{
+	text-align: center;
+	background-color: #F6F6F6;
+	padding-top: 7%;
+	padding-bottom: 7%;
+}
+
+.service-main h2{
+	font-size: 40px;
+	font-weight: bold;
+	color: #6F6F6F;
+}
+
+.service{
+
+}
+
+.service-detail {
+	/*border: 2px solid red;*/
+	padding: 10px;
+}
+
+.service-detail p{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.skills-main{
+	text-align: center;
+	padding-bottom: 7%;
+	padding-top:7%;
+}
+
+.skills-head h2{
+	font-weight: bold;
+	font-size: 40px;
+	color: #6F6F6F;
+}
+
+.skills-img img{
+	width: 100%;
+}
+
+.portfolio-main{
+	text-align: center;
+	background-color: #F6F6F6;
+	padding-bottom: 7%;
+	padding-top:7%;
+}
+
+.portfolio-head h2{
+	font-size: 40px;
+	color: #6F6F6F;
+	font-weight: bold;
+}
+
+.port-det{
+	padding-top: 3%;
+	/*border:2px solid red;*/
+}
+
+.port-det img{
+	transition: 1s all;
+}
+
+.port-det img:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+.butt{
+	padding: 3%;
+}
+
+.butt button{
+	border:2px solid grey;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: transparent;
+	padding: 10px 35px;
+	transition: 1s all;
+}
+
+.butt button:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	border: none;
+}
+.testi-main{
+	padding-bottom: 7%;
+	padding-top:7%;
+}
+.testi-main h2{
+	text-align: center;
+}
+
+.testi-head h2{
+	font-size: 40px;
+	color: #6F6F6F;
+	font-weight: bold;
+}
+.testi-comm{
+	border: 1px solid grey;
+	padding: 7%;
+}
+
+.testi-img{
+	/*border: 2px solid red;*/
+	text-align: right;
+}
+
+.testi-details h3{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.testi-details p{
+	color: #6F6F6F;
+}
+
+.nav-ico {
+	padding-top: 3%;
+	text-align: center;
+}
+
+.number{
+	background-color: #F6F6F6;
+	text-align: center;
+	padding: 7%;
+}
+
+.num-detail h3{
+	font-weight: bold;
+}
+
+.num-detail p{
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.contact-main{
+	text-align: center;
+	background:url('../img/contact bg.png');
+	background-size: cover;
+	padding-top: 7%;
+}
+
+.contact-head h2{
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.contact-form input{
+	padding: 10px;
+	width: 30%;
+}
+
+.contact-form textarea{
+	padding: 10px;
+	width: 60.2%;
+	margin-top: 3%;
+}
+
+.contact-form button{
+	margin-top: 2%;
+	border:none;
+	background-color: white;
+	font-weight: bold;
+	padding: 10px 30px;
+}
+.left-footer{
+	text-align: left;
+}
+
+.left-footer img{
+}
+
+.right-footer {
+	text-align: left;
+	color: white;
+	font-weight: bold;
+}
+
+
+/*responsive*/
+
+@media (max-width: 767px) {
+	.head-left{
+		text-align: center;
+	}
+	.head-right {
+		text-align: center;
+	}
+
+	.head-detail{
+		text-align: center;
+	}
+
+	.testi-img{
+		text-align: left;
+	}
+
+	.left-footer,.right-footer{
+		text-align: center;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	
+
+}
+
+@media (min-width: 992px) and (max-width:1200px) {
+	
+
+}
+
+@media (min-width: 1200px) {
+
+}
